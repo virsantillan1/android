@@ -1,0 +1,4 @@
+com/virsantillan1/holamundo/test/BuildConfig.java
+ com.virsantillan1.holamundo.test.BuildConfig
+com/virsantillan1/holamundo/ExampleInstrumentedTest.java
+ com.virsantillan1.holamundo.ExampleInstrumentedTest

@@ -9,11 +9,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="1028dp"
-        android:layout_height="1126dp"
-        app:srcCompat="@drawable/_2fc53db72cf219e20fd61969cbf4461c_marcianito_miprimer_proyecto_android"
-        tools:layout_editor_absoluteX="-214dp"
-        tools:layout_editor_absoluteY="-145dp" />
+        android:layout_width="1206dp"
+        android:layout_height="1300dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_2fc53db72cf219e20fd61969cbf4461c_marcianito_miprimer_proyecto_android" />
 
     <TextView
         android:id="@+id/textView2"
@@ -25,8 +28,11 @@
         android:textAppearance="@style/MaterialAlertDialog.MaterialComponents.Title.Icon"
         android:textColor="#FFFFFF"
         android:textSize="?android:attr/windowTitleSize"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="118dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
 
     <Button
         android:id="@+id/button2"
@@ -36,9 +42,13 @@
         android:fontFamily="sans-serif-black"
         android:text="@string/boton_principal"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344"
         app:strokeColor="@color/white"
-        app:strokeWidth="2px"
-        tools:layout_editor_absoluteX="238dp"
-        tools:layout_editor_absoluteY="265dp" />
+        app:strokeWidth="2dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
